@@ -1,0 +1,54 @@
+@charset "utf-8";
+
+*{
+  margin: 0px;
+  padding: 0px;
+}
+
+body{
+  background-color: #494949;
+}
+
+.galeria{
+  position: relative;
+  margin: 200px auto;
+  height: 200px;
+  width: 355px;
+  overflow: hidden;
+}
+
+.foto{
+  position: absolute;
+  opacity: 0;
+  animation-name: anime;
+  animation-duration: 25s;
+  animation-iteration-count: infinite;
+}
+
+@keyframes anime{
+  
+  25%{
+  opacity:1;
+  transform: scale(1.1,1.1);
+   }
+
+  50%{
+  opacity: 0;
+  }
+
+}
+
+.foto:nth-child(1){
+}
+.foto:nth-child(2){
+  animation-delay: 5s;
+}
+.foto:nth-child(3){
+  animation-delay: 10s;
+}
+.foto:nth-child(4){
+  animation-delay: 15s;
+}
+.foto:nth-child(5){
+  animation-delay: 20s;
+}
