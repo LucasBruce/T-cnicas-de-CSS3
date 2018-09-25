@@ -1,10 +1,5 @@
-<!DOCTYPE html>
-<html lang="pt-br">
-	<head>
-		<meta charset="utf-8"/>
-		  <title>FLORESTAS</title>
-		  <style type="text/css">
-		  	
+@charset "utf-8";
+
 body{
 	margin: 0px;
 	padding: 0px;
@@ -13,7 +8,7 @@ body{
 #box1{
 	height: 100vh;
 	width: 100%;
-	background-image: url("01.jpg");
+	background-image: url("parallax/01.jpg");
 	background-size: cover;
 	display: table;
 	background-attachment: fixed;
@@ -22,7 +17,7 @@ body{
 #box2{
 	height: 100vh;
 	width: 100%;
-	background-image: url("02.jpg");
+	background-image: url("parallax/02.jpg");
 	background-size: cover;
 	display: table;
 	background-attachment: fixed;
@@ -31,7 +26,7 @@ body{
 #box3{
 	height: 100vh;
 	width: 100%;
-	background-image: url("03.jpg");
+	background-image: url("parallax/03.jpg");
 	background-size: cover;
 	display: table;
 	background-attachment: fixed;
@@ -46,17 +41,3 @@ h1{
 	display: table-cell;
 	vertical-align: middle;
 }
-		  </style>
-	</head>
-	<body>
-		<div id="box1">
-			<h1>TROPICAL</h1>
-		</div>
-		<div id="box2">
-			<h1>NEVE</h1>
-	    </div>
-	    <div id="box3">
-	    	<h1>TEMPERADA</h1>
-	    </div>
-	</body>
-</html>
